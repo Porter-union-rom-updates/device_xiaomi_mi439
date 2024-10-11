@@ -22,6 +22,14 @@ $(call inherit-product, device/xiaomi/mi439/device.mk)
 # Inherit from common AOSP configuration
 $(call inherit-product, vendor/orion/config/common_full_phone.mk)
 
+# OrionOS Flags
+ORION_MAINTAINER := 𝕲𝖊𝖗𝖒𝖆𝖓𝖎𝖚𝖒
+ORION_MAINTAINER_LINK := https://t.me/GermaniumSculk 
+ORION_GAPPS := true
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+BUILD_GOOGLE_MESSAGE := true
+
 PRODUCT_NAME := orion_mi439
 PRODUCT_DEVICE := mi439
 PRODUCT_BRAND := Xiaomi
