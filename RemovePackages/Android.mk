@@ -5,10 +5,15 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
+    arcore \
+	AICorePrebuilt \
+	AiWallpapers \
+    DevicePersonalizationPrebuiltPixel2020 \
     Chrome \
     Drive \
     Gmail2 \
     Maps \
+    Photos \
     YouTube
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
