@@ -28,6 +28,9 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI SDM439
 PRODUCT_MANUFACTURER := Xiaomi
 
+# The Pixel Project Build Flags
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 720
 
