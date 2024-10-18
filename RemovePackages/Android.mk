@@ -5,9 +5,9 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
-    arcore \
-	AICorePrebuilt \
-	AiWallpapers \
+    arcore
+    AICorePrebuilt \
+    AiWallpapers \
     DevicePersonalizationPrebuiltPixel2020 \
     Chrome \
     Drive \
