@@ -6,14 +6,22 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
     arcore \
+    AndroidAutoStub \
     AICorePrebuilt \
     AiWallpapers \
-    DevicePersonalizationPrebuiltPixel2020 \
     Chrome \
+    Chrome-stub \
+    DeviceIntelligenceNetworkPrebuilt \
+    DevicePersonalizationPrebuiltPixel2021 \
     Drive \
-    Gmail2 \
     Maps \
+    PixelLiveWallpaperPrebuilt \
     Photos \
+    PrebuiltGmail \
+    SafetyHubPrebuilt \
+    TrichromeLibrary \
+    TrichromeLibrary-Stub \
+    Velvet \
     YouTube 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
