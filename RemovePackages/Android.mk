@@ -6,19 +6,20 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
     arcore \
-    AndroidAutoStub \
-    AICorePrebuilt \
+    AndroidAutoStubPrebuilt \
+    AICorePrebuilt-aicore_20240509.01_RC02 \
     AiWallpapers \
     Chrome \
     Chrome-stub \
-    DeviceIntelligenceNetworkPrebuilt \
-    DevicePersonalizationPrebuiltPixel2021 \
+    DeviceIntelligenceNetworkPrebuilt-U.21_playstore_astrea_20240222.00_RC01 \
+    DevicePersonalizationPrebuiltPixel2024-U.21_P24_aiai_20240327.00_RC01 \
     Drive \
     Maps \
     PixelLiveWallpaperPrebuilt \
     Photos \
     PrebuiltGmail \
     SafetyHubPrebuilt \
+    SoundAmplifierPrebuilt \
     TrichromeLibrary \
     TrichromeLibrary-Stub \
     Velvet \
