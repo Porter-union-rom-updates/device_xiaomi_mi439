@@ -23,9 +23,10 @@ $(call inherit-product, device/xiaomi/mi439/device.mk)
 $(call inherit-product, vendor/pixelstar/config/common_full_phone.mk)
 
 # Device Specific
-TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_QUICK_TAP := false 
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_SUPPORTS_BLUR := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := false 
 
 PRODUCT_NAME := aosp_mi439
 PRODUCT_DEVICE := mi439
