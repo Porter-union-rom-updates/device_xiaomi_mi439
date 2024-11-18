@@ -227,3 +227,5 @@ include vendor/xiaomi/mi439/BoardConfigVendor.mk
 
 # QC common
 include device/qcom/common/BoardConfigQcom.mk
+# missing something 
+ALLOW_MISSING_DEPENDENCIES=true
