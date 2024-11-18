@@ -47,46 +47,29 @@ LOCAL_OVERRIDES_PACKAGES := \
 	YouTubeVanced \
 	linktowindows \
 	talkback \
-    AmbientSensePrebuilt \
-    ConnMO \
-    ConnMetrics \
-    DCMO \
-    DMService \
-    DeviceAsWebcam \
-    GCS \
-    Maps \
-    MyVerizonServices \
-    OBDM_Permissions \
-    OdadPrebuilt \
-    OemDmTrigger \
-    Ornament \
-    PixelBuds \
-    SCONE \
-    ScribePrebuilt \
-    Showcase \
-    SoundAmplifierPrebuilt \
-    SprintDM \
-    SprintHM \
-    Tycho \
-    USCCDM \
-    Updater \
-    VZWAPNLib \
-    Videos \
-    VzwOmaTrigger \
-    obdm_stub \
-    talkback \
-    WellbeingPrebuilt \
-    GoogleDialer \
-    DeviceIntelligenceNetworkPrebuilt \
-    DevicePersonalizationPrebuiltPixel2020 \
-    SafetyHubPrebuilt \
-    GoogleTTS \
-    TurboPrebuilt \
-    LatinIMEGooglePrebuilt \
-    WebViewGoogle \
-    WebViewGoogle-Stub \
-    HealthIntelligenceStubPrebuilt \
-    QuickSearchBox
+        AmbientSensePrebuilt \
+        ConnMO \
+        ConnMetrics \
+        DCMO \
+        DMService \
+        DeviceAsWebcam \
+        DeviceAsWebcam \
+        GCS \
+        Maps \
+        MyVerizonServices \
+        OBDM_Permissions \
+        OdadPrebuilt \
+        OemDmTrigger \
+        Ornament \
+        PixelBuds \
+        SCONE \
+        ScribePrebuilt \
+        Showcase \
+        SoundAmplifierPrebuilt \
+        SprintDM \
+        SprintHM \
+        WellbeingPrebuilt \
+        QuickSearchBox
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
