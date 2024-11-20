@@ -17,7 +17,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     DMService \
     GCS \
     GoogleTTS \
-    Maps \
     MyVerizonServices \
     OBDM_Permissions \
     obdm_stub \
@@ -27,8 +26,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     Ornament \
     PixelBuds \
     PixelLiveWallpaperPrebuilt \
-    RecorderPrebuilt \
-    SafetyHubPrebuilt \
     SCONE \
     ScribePrebuilt \
     Showcase \
@@ -42,7 +39,19 @@ LOCAL_OVERRIDES_PACKAGES := \
     VZWAPNLib \
     VzwOmaTrigger \
     YouTube \
-    YouTubeMusicPrebuilt
+    Maps \
+    Photos \
+    PrebuiltGmail \
+    TrichromeLibrary-Stub \
+    AICorePrebuilt \
+    AiWallpapers \
+    AndroidAutoStubPrebuilt \    
+    DeviceIntelligenceNetworkPrebuilt \  
+    DevicePersonalizationPrebuiltPixel2023 \
+    AndroidPlatformServices \
+    RecorderPrebuilt \
+    SafetyHubPrebuilt \
+    Velvet \
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
