@@ -7,7 +7,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
     arcore \
     AndroidAutoStubPrebuilt \
-    AICorePrebuilt-aicore_20240509.01_RC02 \
+    AICorePrebuilt \
     AiWallpapers \
     Chrome \
     Chrome-stub \
