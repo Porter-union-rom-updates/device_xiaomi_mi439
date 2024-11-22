@@ -22,7 +22,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     SoundAmplifierPrebuilt \
     TrichromeLibrary \
     TrichromeLibrary-Stub \
-    Velvet \
     YouTube 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
