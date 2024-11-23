@@ -28,9 +28,6 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI SDM439
 PRODUCT_MANUFACTURER := Xiaomi
 
-# This nigga is fucking meee
-TARGET_SUPPORTS_DSE_CHOICE_SCREEN := false
-
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 720
 
